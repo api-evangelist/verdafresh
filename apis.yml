@@ -1,17 +1,34 @@
 aid: verdafresh
-name: Verdafresh
-description: 'Verdafresh is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: VerdaFresh
+description: 'VerdaFresh is a Wayne, Pennsylvania materials-science company that develops
+  water-based, saran-free oxygen barrier coatings for recyclable flexible food packaging.
+  Its High Oxygen Barrier and Ultra High Barrier coatings are applied to BOPP, HD-BOPE,
+  MDO-PE and PET film substrates to extend shelf life while keeping the finished package
+  mono-material and recyclable, replacing PVdC and metallized structures. The company
+  sells coatings and coated films to converters and CPG brands, is APR-recognized and
+  a member of the U.S. Plastics Pact, and publishes technical datasheets rather than
+  software. It is a physical-products manufacturer with no developer program, API,
+  SDK or machine-readable interface of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/verdafresh/refs/heads/main/apis.yml
+image: https://verdafresh.com/assets/images/favicons/apple-touch-icon.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-09-02'
 modified: '2026-09-02'
 tags:
 - Company
+- Packaging
+- Flexible Packaging
+- Food Packaging
+- Materials Science
+- Barrier Coatings
+- Recycling
+- Sustainability
+- Circular Economy
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +37,37 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://verdafresh.com/
+- type: Blog
+  url: https://verdafresh.com/news
+- type: Support
+  url: mailto:info@verdafresh.com
+- type: DomainSecurity
+  url: security/verdafresh-domain-security.yml
+- type: LLMsTxt
+  url: llms/verdafresh-llms.txt
+x-enrichment:
+  date: '2026-09-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    VerdaFresh sells oxygen barrier coatings and coated plastic film to packaging
+    converters — its entire web presence is a five-page brochure whose only
+    downloads are PDF product datasheets, and api., developer., developers., docs.
+    and app.verdafresh.com all return NXDOMAIN.
+  evidence:
+  - url: https://verdafresh.com/
+    status: 200
+  - url: https://verdafresh.com/openapi.json
+    status: 404
+  - url: https://verdafresh.com/.well-known/agent-card.json
+    status: 404
+  - url: https://verdafresh.com/llms.txt
+    status: 404
+  - url: https://api.verdafresh.com/
+    status: 0
+  checked: '2026-09-02'

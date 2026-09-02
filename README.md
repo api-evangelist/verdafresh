@@ -64,5 +64,23 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Verdafresh is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+VerdaFresh is a Wayne, Pennsylvania materials-science company that develops water-based,
+saran-free oxygen barrier coatings for recyclable flexible food packaging. Its High Oxygen
+Barrier and Ultra High Barrier coatings are applied to BOPP, HD-BOPE, MDO-PE and PET film
+substrates to extend shelf life while keeping the finished package mono-material and
+recyclable, replacing PVdC and metallized structures.
+
+- https://verdafresh.com/
+
+## API surface
+
+**None.** Probed 2026-09-02: VerdaFresh publishes no API, OpenAPI or other machine-readable
+contract, no MCP server, no A2A agent card, no SDK on any public package registry, and no
+GitHub organization. `api.`, `developer.`, `developers.`, `docs.` and `app.verdafresh.com`
+do not resolve (NXDOMAIN). This is an honest zero for a physical-products manufacturer, not
+a gap in this profile — see `x-coverage` in `apis.yml`.
+
+What this repo does hold is a probed record of the company's public domain posture
+(`security/verdafresh-domain-security.yml`), a recorded absence for every named
+`/.well-known/` path (`well-known/verdafresh-well-known.yml`), and a generated `llms.txt`
+(`llms/verdafresh-llms.txt`).

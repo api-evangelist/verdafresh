@@ -1,0 +1,35 @@
+generated: '2026-09-02'
+method: probed
+source: live HTTPS probes of the named /.well-known/ path list on verdafresh.com
+note: >-
+  Every named path returned HTTP 404 with the site's standard HTML not-found page.
+  VerdaFresh serves a five-page marketing brochure site and publishes no
+  /.well-known/ documents of any kind. No WellKnown or SecurityTxt pointer is wired
+  in apis.yml because nothing was served — this file records a verified absence, not
+  a presence. api.verdafresh.com, developer.verdafresh.com, developers.verdafresh.com,
+  docs.verdafresh.com and app.verdafresh.com do not resolve in DNS (NXDOMAIN), so
+  verdafresh.com is the only host with a well-known surface to probe.
+hosts:
+- host: verdafresh.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

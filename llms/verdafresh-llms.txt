@@ -1,0 +1,64 @@
+# VerdaFresh
+
+> VerdaFresh develops water-based, saran-free oxygen barrier coatings for recyclable
+> flexible food packaging. Its coatings are applied to BOPP, HD-BOPE, MDO-PE and PET
+> film substrates to extend food shelf life while keeping the finished package
+> mono-material and recyclable. VerdaFresh is a physical-products manufacturer based
+> in Wayne, Pennsylvania — it publishes no API, SDK, developer portal or other
+> machine-readable interface.
+
+## No API surface
+
+VerdaFresh has no developer program. As of 2026-09-02 there is no public API, no
+OpenAPI or other machine-readable contract, no MCP server, no A2A agent card, no
+SDK on any public package registry, and no GitHub organization. The subdomains
+api., developer., developers., docs. and app.verdafresh.com do not resolve.
+Do not attempt to call a VerdaFresh API; none exists.
+
+## Company
+
+- [Home](https://verdafresh.com/): Company overview and the coating and coated-film product families.
+- [About Recycling Food Packaging](https://verdafresh.com/about-recycling-food-packaging): Background on recyclable mono-material packaging and why PVdC and metallized structures are being displaced.
+- [How We Work](https://verdafresh.com/how-we-work): How VerdaFresh engages converters and CPG brands.
+- [Our Products](https://verdafresh.com/products): The coating and coated-film catalog.
+- [News](https://verdafresh.com/news): Dated company news and case studies.
+
+## Products
+
+Coatings:
+
+- High Oxygen Barrier Coating
+- Ultra High Barrier Oxygen Coating
+
+Coated films:
+
+- VerdaFresh Coated BOPP
+- VerdaFresh Coated HD-BOPE
+- VerdaFresh Coated MDO-PE
+- VerdaFresh Coated PET
+
+## Technical datasheets (PDF)
+
+Product specifications are published as PDF datasheets, not as structured data:
+
+- [High Oxygen Barrier coating TDS](https://verdafresh.com/assets/images/tds-verdafresh-high-oxygen-barrier.pdf)
+- [Ultra High Barrier coating TDS](https://verdafresh.com/assets/images/tds-verdafresh-ultra-high-barrier.pdf)
+- [Coated HD-BOPE datasheet](https://verdafresh.com/assets/images/VerdaFresh_Datasheet_HD-BOPE.pdf)
+- [Coated MDO-PE 0.90 mil TDS](https://verdafresh.com/assets/images/verdafresh-tds-mdo-pe-0.90-mil-vf-mdo90-cn.pdf)
+- [Coated BOPP 70 TDS](https://verdafresh.com/assets/images/verdafresh-vf-bopp-70.pdf)
+- [Coated PET 48 TDS](https://verdafresh.com/assets/images/verdafresh-vf-pet48-1-.pdf)
+
+## Contact
+
+- General enquiries: info@verdafresh.com
+
+## Optional
+
+- [Domain security probe](security/verdafresh-domain-security.yml): TLS, HSTS, DNSSEC, SPF and DMARC posture for verdafresh.com, probed by API Evangelist.
+- [Well-known probe](well-known/verdafresh-well-known.yml): Recorded absence of every named /.well-known/ document.
+
+<!--
+generated: 2026-09-02
+method: generated
+source: apis.yml + verdafresh.com pages probed 2026-09-02 (API Evangelist enrichment pipeline)
+-->
